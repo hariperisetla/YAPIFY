@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const ejs = require("ejs");
 const dialogues = require("./dialogues.json");
+const path = require("path");
 
 const app = express();
 
